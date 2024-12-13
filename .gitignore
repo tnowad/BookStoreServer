@@ -1,0 +1,28 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.vspx
+*.log
+
+# Rider IDE files
+.idea/
+*.sln.iml
+
+# Visual Studio Code settings
+.vscode/
+
+# Dependency directories
+packages/
+node_modules/
+
+# Environment and secret files
+*.env
+*.secret
+
+# Auto-generated files
+*.Generated.cs
