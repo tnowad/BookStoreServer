@@ -24,6 +24,7 @@ namespace Core.Entities
         [MaxLength(255)]
         public string Author { get; set; } = string.Empty;
 
+        public byte[] RowVersion { get; set; } = Array.Empty<byte>();
         [Required]
         public DateTime PublishDate { get; set; }
 
